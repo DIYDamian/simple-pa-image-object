@@ -132,7 +132,7 @@ def process_image(img_path, dragged=False):
             f.write("<align=left>")
             if config["horizontal_scale"] != 2:
                 f.write(f"<scale={config['horizontal_scale']*0.5}>")
-            f.write(f"<lineheight={15.5+config['line_height_addition']}>")
+            f.write(f"<line-height={15.5+config['line_height_addition']}>")
             if config["cspace_addition"] != 0:
                 f.write(f"<cspace={config['cspace_addition']}>")
             for coord in result:

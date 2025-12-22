@@ -1,0 +1,9 @@
+{
+    "output_name_suffix": "_txtoutput",
+    "cspace_addition": 0,
+    "line_height_addition": 0,
+    "horizontal_scale": 1,
+    "space_tag_optimization": true,
+    "use_filler": true,
+    "filler_string": "░░▒"
+}

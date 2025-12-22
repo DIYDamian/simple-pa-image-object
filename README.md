@@ -9,6 +9,6 @@ The code reads from `img2txt_config.json` to change certain properties of the ou
 - **`output_name_suffix`** - Changes the suffix of outputted text files. For example, if `my_image.png` is put in the program and this value is `_txtoutput`, the resulting file will be named `my_image_txtoutput.txt`. (Default: "_txtoutput")
 - **`cspace_addition`** - If not zero, adds a \<cspace> tag with this value, adjusting horizontal spacing between characters. (Default: 0)
 - **`line_height_addition`** - Adds to the \<line-height> tag's value, adjusting vertical spacing between characters. (Default: 0)
-- **`horizontal-scaling`** - Adjusts the \<scale> tag at the start.  (Default: 1)
+- **`horizontal_scale`** - Adjusts the \<scale> tag at the start.  (Default: 1)
 - **`space_tag_optimization`** - Experimental. Replaces large continuous spaces with a \<space> tag whenever it'd reduce the object's character count.  (Default: True)
 - **`use_filler`** - If true, all blank spaces in the output will be replaced with random characters from the **`filler_string`**. Useful for text when going for the default Project Arrhythmia ASCII font look. If enabled, `space_tag_optimization` will be ignored. (Default: False)
